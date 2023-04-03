@@ -1,0 +1,41 @@
+body{
+    background-color: powderblue;
+}
+h1{
+    color: blue;
+}
+p{
+    color: red;
+    border:2px solid powderblue ;
+    padding: auto;
+    margin: auto;
+}
+table,th,td{
+    
+    border-collapse: dotted;
+    border-radius: 10px;
+    border-color: blueviolet;
+    
+}
+th,td{
+    /*
+    background-color: burlywood;
+    */  
+    border-radius: 10px;
+    /*
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+     */   
+   
+}
+td{
+    text-align:center ;
+}
+table{
+    border-spacing: 30px;
+}
+tr:nth-child(even){
+    background-color: #D6EEEE;
+}
